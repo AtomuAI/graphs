@@ -10,6 +10,7 @@ path = "src/lib.rs"
 [dependencies]
 thiserror = "2.0.3"
 dyn-clone = "1.0.17"
+linear-algebra = { path = "../../linear-algebra/rust" }
 
 [dev-dependencies]
 crossbeam = "0.8.4"
